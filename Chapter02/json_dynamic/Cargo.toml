@@ -1,0 +1,9 @@
+[package]
+name = "json_dynamic"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde_json = "1.0.93"
+clap = { version = "4.1.6", features = ["derive"] }
+
